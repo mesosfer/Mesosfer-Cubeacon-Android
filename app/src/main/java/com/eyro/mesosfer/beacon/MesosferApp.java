@@ -10,14 +10,14 @@ import com.eyro.mesosfer.Mesosfer;
  */
 
 public class MesosferApp extends Application {
-    @Override
-    public void onCreate() {
-        super.onCreate();
+  @Override
+  public void onCreate() {
+    super.onCreate();
 
-        // initialize Mesosfer SDK
-        Mesosfer.initialize(this, "YOUR-APP-ID-HERE", "YOUR-CLIENT-KEY-HERE");
+    // initialize Mesosfer SDK
+    Mesosfer.initialize(this, "YOUR-APP-ID-HERE", "YOUR-CLIENT-KEY-HERE");
 
-        // initialize Cubeacon SDK
-        Cubeacon.initialize(this);
-    }
+    // initialize Cubeacon SDK
+    Cubeacon.initialize(this);
+  }
 }
